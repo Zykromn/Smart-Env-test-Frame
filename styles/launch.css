@@ -19,7 +19,7 @@ main{
         flex-direction: column;
         font-size: 5vw;
         position: absolute;
-        margin-bottom: 2vh;
+        margin-bottom: 5vh;
         align-self: flex-end;
         justify-self: center;
         animation: LaunchAnimation_Opacity 1 2s;
