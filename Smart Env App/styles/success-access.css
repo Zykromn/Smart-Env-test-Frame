@@ -1,0 +1,45 @@
+#canvas-basic {
+    position: absolute;
+    display: block;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+}
+
+main{
+    height: 100vh;
+    color: #ffffff;
+}
+    .main-article{
+        text-align: center;
+        font-size: 3vh;
+        width: 60vw;
+        position: relative;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+    .main-article-button{
+        margin-top: 5vh;
+        width: 50vw;
+        height: 10vh;
+        border-radius: 0.5vh;
+        border: 1px #ffffff solid;
+        color: #ffffff;
+        background-color: #0acae7;
+        font-size: 5vh;
+        font-weight: bolder;
+        cursor: pointer;
+    }
+    .main-article-button:hover{
+        transition: 3s;
+        box-shadow: #026573 20px 20px 20px;
+    }
+    .main-article-button:not(:hover){
+        transition: 3s;
+        box-shadow: #014f59 5px 5px 5px;
+    }

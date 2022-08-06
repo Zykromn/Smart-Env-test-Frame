@@ -1,0 +1,37 @@
+main{
+    height: 90vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+    img{
+        width: 15vw;
+    }
+    h1{
+        font-size: 3vh;
+        font-weight: bolder;
+    }
+    p{
+        font-size: 2vh;
+        text-align: center;
+        width: 50vw;
+    }
+    .repeat-button{
+        margin-top: 10vh;
+        width: 30vw;
+        height: 5vh;
+        border-radius: 0.5vh;
+        box-shadow: #014f59 5px 5px 5px;
+        border: 1px #ffffff solid;
+        color: #ffffff;
+        background-color: #026573;
+        font-size: 3vh;
+        font-weight: bolder;
+        cursor: pointer;
+    }
+    .repeat-button:hover{
+        transition: 1s;
+        background-color: #0acae7;
+    }
+

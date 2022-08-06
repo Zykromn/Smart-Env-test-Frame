@@ -1,0 +1,84 @@
+.BM-BlackScreen{
+    transform: translateX(-150%);
+    position: absolute;
+    width: 100vw;
+    height: 100vh;
+    opacity: 0.4;
+    background-color: #000000;
+}
+.BM-Content{
+    position: absolute;
+    border-bottom-right-radius: 20px;
+    border-top-right-radius: 20px;
+    transform: translateX(-150%);
+    background-color: white;
+    width: 60vw;
+    margin-top:10vh;
+    height: 80vh;
+}
+    .BMH-Content{
+        color: white;
+        text-align: right;
+        border-top-right-radius: 20px;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        height: 8vh;
+        background-color: #028699;
+    }
+        .BMH-BurgerMenuClose{
+            height: 4vh;
+            margin-left: 5vw;
+        }
+        .BMH-SystemName{
+            margin-right: 2vw;
+            font-size: 2vh;
+            font-weight: bold;
+        }
+    .BMM-Content{
+        font-size: 2vh;
+        margin: 2vh 4vw 0 7vw;
+    }
+        .BMM_SplitLine{
+            width: 100%;
+            height: 0.2vh;
+            background-color: black;
+            border-radius: 2px;
+            margin: 1vh 0 1vh 0;
+        }
+        .BMM-Item{
+            margin: 0.5vh 0 0.5vh 0;
+        }
+
+.BMF-Content{
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: end;
+    margin-top: 25vh;
+}
+    .BMF-Logo{
+        height: 3vh;
+    }
+
+
+header{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    flex-direction: row;
+}
+    .Header-BurgerMenuIcon{
+        height: 5vh;
+        margin-left: 4vw;
+        display: block;
+
+    }
+
+.Main-Information{
+    width: 50vh;
+    height: 50vh;
+}
+
+
+

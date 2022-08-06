@@ -1,0 +1,35 @@
+main{
+    min-height: 100vh;
+    min-width: 100vw;
+    font-size: 10vw;
+    color: white;
+    background-color: #028699;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+    .appName{
+        position: absolute;
+        animation: LaunchAnimation_Opacity 1 1s;
+    }
+    .developerName{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        font-size: 5vw;
+        position: absolute;
+        margin-bottom: 2vh;
+        align-self: flex-end;
+        justify-self: center;
+        animation: LaunchAnimation_Opacity 1 2s;
+    }
+    .developer-logoImg{
+        width: 30vw;
+    }
+
+
+@keyframes LaunchAnimation_Opacity {
+    0% {opacity: 0}
+    100% {opacity: 1}
+}
